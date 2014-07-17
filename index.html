@@ -3,8 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>React</title>
+
+  <script src="bower_components/react/react.min.js"></script>
+  <script src="bower_components/react/JSXTransformer.js"></script>
 </head>
 <body>
+
+<div id="wtf"></div>
+
+
+<script>
+  /**
+   * @jsx React DOM
+   */
+  React.renderComponent(
+    <h1>Hello, React!</h1>,
+    document.getElementById('wtf');
+  );
+</script>
 
 </body>
 </html>
