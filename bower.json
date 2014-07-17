@@ -1,0 +1,26 @@
+{
+  "name": "reaction",
+  "version": "0.0.0",
+  "homepage": "https://github.com/AgtLucas/reaction",
+  "authors": [
+    "Lucas Churchill <lucas@agtlucas.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.11.0"
+  }
+}
