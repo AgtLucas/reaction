@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AgtLucas/reaction/issues"
   },
-  "homepage": "https://github.com/AgtLucas/reaction"
+  "homepage": "https://github.com/AgtLucas/reaction",
+  "dependencies": {
+    "express": "^4.6.1"
+  }
 }
